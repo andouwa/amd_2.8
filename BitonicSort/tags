@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BITONICSORT_H_	BitonicSort.hpp	19;"	d
+BitonicSort	BitonicSort.hpp	/^    BitonicSort(const char* name)$/;"	f	class:BitonicSort	access:public	signature:(const char* name)
+BitonicSort	BitonicSort.hpp	/^    BitonicSort(std::string name)$/;"	f	class:BitonicSort	access:public	signature:(std::string name)
+BitonicSort	BitonicSort.hpp	/^class BitonicSort : public SDKSample$/;"	c	inherits:SDKSample
+BitonicSort::BitonicSort	BitonicSort.hpp	/^    BitonicSort(const char* name)$/;"	f	class:BitonicSort	access:public	signature:(const char* name)
+BitonicSort::BitonicSort	BitonicSort.hpp	/^    BitonicSort(std::string name)$/;"	f	class:BitonicSort	access:public	signature:(std::string name)
+BitonicSort::bitonicSortCPUReference	BitonicSort.cpp	/^BitonicSort::bitonicSortCPUReference($/;"	f	class:BitonicSort	signature:( cl_uint * input, const cl_uint length, const cl_bool sortIncreasing)
+BitonicSort::bitonicSortCPUReference	BitonicSort.hpp	/^    void bitonicSortCPUReference($/;"	p	class:BitonicSort	access:public	signature:( cl_uint * input, const cl_uint length, const cl_bool sortIncreasing)
+BitonicSort::cleanup	BitonicSort.cpp	/^int BitonicSort::cleanup()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::cleanup	BitonicSort.hpp	/^    int cleanup();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::commandQueue	BitonicSort.hpp	/^    cl_command_queue commandQueue;    \/**< CL command queue *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::context	BitonicSort.hpp	/^    cl_context            context;    \/**< CL context *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::devices	BitonicSort.hpp	/^    cl_device_id         *devices;    \/**< CL device list *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::genBinaryImage	BitonicSort.cpp	/^BitonicSort::genBinaryImage()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::genBinaryImage	BitonicSort.hpp	/^    int genBinaryImage();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::initialize	BitonicSort.cpp	/^int BitonicSort::initialize()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::initialize	BitonicSort.hpp	/^    int initialize();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::input	BitonicSort.hpp	/^	cl_uint                *input;    \/**< Input array *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::inputBuffer	BitonicSort.hpp	/^    cl_mem            inputBuffer;    \/**< CL memory buffer *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::iterations	BitonicSort.hpp	/^    int                iterations;    \/**< Number of iterations to execute kernel *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::kernel	BitonicSort.hpp	/^    cl_kernel              kernel;    \/**< CL kernel *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::kernelInfo	BitonicSort.hpp	/^    streamsdk::KernelWorkGroupInfo kernelInfo;\/**< Structure to store kernel related info *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::length	BitonicSort.hpp	/^    cl_int                 length;    \/**< length of the array *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::printStats	BitonicSort.cpp	/^void BitonicSort::printStats()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::printStats	BitonicSort.hpp	/^    void printStats();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::program	BitonicSort.hpp	/^    cl_program            program;    \/**< CL program  *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::referenceKernelTime	BitonicSort.hpp	/^    cl_double referenceKernelTime;    \/**< Time for reference implementation *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::run	BitonicSort.cpp	/^int BitonicSort::run()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::run	BitonicSort.hpp	/^    int run();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::runCLKernels	BitonicSort.cpp	/^BitonicSort::runCLKernels(void)$/;"	f	class:BitonicSort	signature:(void)
+BitonicSort::runCLKernels	BitonicSort.hpp	/^    int runCLKernels();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::seed	BitonicSort.hpp	/^    cl_uint                  seed;    \/**< Seed value for random number generation *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::setup	BitonicSort.cpp	/^int BitonicSort::setup()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::setup	BitonicSort.hpp	/^    int setup();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::setupBitonicSort	BitonicSort.cpp	/^int BitonicSort::setupBitonicSort()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::setupBitonicSort	BitonicSort.hpp	/^    int setupBitonicSort();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::setupCL	BitonicSort.cpp	/^BitonicSort::setupCL(void)$/;"	f	class:BitonicSort	signature:(void)
+BitonicSort::setupCL	BitonicSort.hpp	/^    int setupCL();$/;"	p	class:BitonicSort	access:public	signature:()
+BitonicSort::setupTime	BitonicSort.hpp	/^    cl_double           setupTime;    \/**< Time for setting up OpenCL *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::sortDescending	BitonicSort.hpp	/^    std::string    sortDescending;    \/**< Argument to indicate sorting order *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::sortOrder	BitonicSort.hpp	/^    cl_uint             sortOrder;    \/**< Flag to indicate sorting order *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::swapIfFirstIsGreater	BitonicSort.cpp	/^BitonicSort::swapIfFirstIsGreater(cl_uint *a, cl_uint *b)$/;"	f	class:BitonicSort	signature:(cl_uint *a, cl_uint *b)
+BitonicSort::swapIfFirstIsGreater	BitonicSort.hpp	/^    void swapIfFirstIsGreater(cl_uint *a, cl_uint *b);$/;"	p	class:BitonicSort	access:public	signature:(cl_uint *a, cl_uint *b)
+BitonicSort::totalKernelTime	BitonicSort.hpp	/^    cl_double     totalKernelTime;    \/**< Time for kernel execution *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::totalProgramTime	BitonicSort.hpp	/^    cl_double    totalProgramTime;    \/**< Time for program execution *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::verificationInput	BitonicSort.hpp	/^    cl_uint    *verificationInput;    \/**< Input array for reference implementation *\/$/;"	m	class:BitonicSort	access:private
+BitonicSort::verifyResults	BitonicSort.cpp	/^int BitonicSort::verifyResults()$/;"	f	class:BitonicSort	signature:()
+BitonicSort::verifyResults	BitonicSort.hpp	/^    int verifyResults();$/;"	p	class:BitonicSort	access:public	signature:()
+CLFILES	Makefile	/^CLFILES	= BitonicSort_Kernels.cl$/;"	m
+DEPTH	Makefile	/^DEPTH = ..\/..\/..\/..\/..$/;"	m
+EXE_TARGET	Makefile	/^EXE_TARGET 		= BitonicSort$/;"	m
+EXE_TARGET_INSTALL	Makefile	/^EXE_TARGET_INSTALL   	= BitonicSort$/;"	m
+FILES	Makefile	/^FILES 	= BitonicSort$/;"	m
+GROUP_SIZE	BitonicSort.hpp	37;"	d
+OPENCL	Makefile	/^OPENCL			= 1$/;"	m
+SAMPLE_EXE	Makefile	/^SAMPLE_EXE		= 1$/;"	m
+bitonicSortCPUReference	BitonicSort.cpp	/^BitonicSort::bitonicSortCPUReference($/;"	f	class:BitonicSort	signature:( cl_uint * input, const cl_uint length, const cl_bool sortIncreasing)
+bitonicSortCPUReference	BitonicSort.hpp	/^    void bitonicSortCPUReference($/;"	p	class:BitonicSort	access:public	signature:( cl_uint * input, const cl_uint length, const cl_bool sortIncreasing)
+cleanup	BitonicSort.cpp	/^int BitonicSort::cleanup()$/;"	f	class:BitonicSort	signature:()
+cleanup	BitonicSort.hpp	/^    int cleanup();$/;"	p	class:BitonicSort	access:public	signature:()
+commandQueue	BitonicSort.hpp	/^    cl_command_queue commandQueue;    \/**< CL command queue *\/$/;"	m	class:BitonicSort	access:private
+context	BitonicSort.hpp	/^    cl_context            context;    \/**< CL context *\/$/;"	m	class:BitonicSort	access:private
+devices	BitonicSort.hpp	/^    cl_device_id         *devices;    \/**< CL device list *\/$/;"	m	class:BitonicSort	access:private
+genBinaryImage	BitonicSort.cpp	/^BitonicSort::genBinaryImage()$/;"	f	class:BitonicSort	signature:()
+genBinaryImage	BitonicSort.hpp	/^    int genBinaryImage();$/;"	p	class:BitonicSort	access:public	signature:()
+initialize	BitonicSort.cpp	/^int BitonicSort::initialize()$/;"	f	class:BitonicSort	signature:()
+initialize	BitonicSort.hpp	/^    int initialize();$/;"	p	class:BitonicSort	access:public	signature:()
+input	BitonicSort.hpp	/^	cl_uint                *input;    \/**< Input array *\/$/;"	m	class:BitonicSort	access:private
+inputBuffer	BitonicSort.hpp	/^    cl_mem            inputBuffer;    \/**< CL memory buffer *\/$/;"	m	class:BitonicSort	access:private
+iterations	BitonicSort.hpp	/^    int                iterations;    \/**< Number of iterations to execute kernel *\/$/;"	m	class:BitonicSort	access:private
+kernel	BitonicSort.hpp	/^    cl_kernel              kernel;    \/**< CL kernel *\/$/;"	m	class:BitonicSort	access:private
+kernelInfo	BitonicSort.hpp	/^    streamsdk::KernelWorkGroupInfo kernelInfo;\/**< Structure to store kernel related info *\/$/;"	m	class:BitonicSort	access:private
+length	BitonicSort.hpp	/^    cl_int                 length;    \/**< length of the array *\/$/;"	m	class:BitonicSort	access:private
+main	BitonicSort.cpp	/^main(int argc, char * argv[])$/;"	f	signature:(int argc, char * argv[])
+printStats	BitonicSort.cpp	/^void BitonicSort::printStats()$/;"	f	class:BitonicSort	signature:()
+printStats	BitonicSort.hpp	/^    void printStats();$/;"	p	class:BitonicSort	access:public	signature:()
+program	BitonicSort.hpp	/^    cl_program            program;    \/**< CL program  *\/$/;"	m	class:BitonicSort	access:private
+referenceKernelTime	BitonicSort.hpp	/^    cl_double referenceKernelTime;    \/**< Time for reference implementation *\/$/;"	m	class:BitonicSort	access:private
+run	BitonicSort.cpp	/^int BitonicSort::run()$/;"	f	class:BitonicSort	signature:()
+run	BitonicSort.hpp	/^    int run();$/;"	p	class:BitonicSort	access:public	signature:()
+runCLKernels	BitonicSort.cpp	/^BitonicSort::runCLKernels(void)$/;"	f	class:BitonicSort	signature:(void)
+runCLKernels	BitonicSort.hpp	/^    int runCLKernels();$/;"	p	class:BitonicSort	access:public	signature:()
+seed	BitonicSort.hpp	/^    cl_uint                  seed;    \/**< Seed value for random number generation *\/$/;"	m	class:BitonicSort	access:private
+setup	BitonicSort.cpp	/^int BitonicSort::setup()$/;"	f	class:BitonicSort	signature:()
+setup	BitonicSort.hpp	/^    int setup();$/;"	p	class:BitonicSort	access:public	signature:()
+setupBitonicSort	BitonicSort.cpp	/^int BitonicSort::setupBitonicSort()$/;"	f	class:BitonicSort	signature:()
+setupBitonicSort	BitonicSort.hpp	/^    int setupBitonicSort();$/;"	p	class:BitonicSort	access:public	signature:()
+setupCL	BitonicSort.cpp	/^BitonicSort::setupCL(void)$/;"	f	class:BitonicSort	signature:(void)
+setupCL	BitonicSort.hpp	/^    int setupCL();$/;"	p	class:BitonicSort	access:public	signature:()
+setupTime	BitonicSort.hpp	/^    cl_double           setupTime;    \/**< Time for setting up OpenCL *\/$/;"	m	class:BitonicSort	access:private
+sortDescending	BitonicSort.hpp	/^    std::string    sortDescending;    \/**< Argument to indicate sorting order *\/$/;"	m	class:BitonicSort	access:private
+sortOrder	BitonicSort.hpp	/^    cl_uint             sortOrder;    \/**< Flag to indicate sorting order *\/$/;"	m	class:BitonicSort	access:private
+swapIfFirstIsGreater	BitonicSort.cpp	/^BitonicSort::swapIfFirstIsGreater(cl_uint *a, cl_uint *b)$/;"	f	class:BitonicSort	signature:(cl_uint *a, cl_uint *b)
+swapIfFirstIsGreater	BitonicSort.hpp	/^    void swapIfFirstIsGreater(cl_uint *a, cl_uint *b);$/;"	p	class:BitonicSort	access:public	signature:(cl_uint *a, cl_uint *b)
+totalKernelTime	BitonicSort.hpp	/^    cl_double     totalKernelTime;    \/**< Time for kernel execution *\/$/;"	m	class:BitonicSort	access:private
+totalProgramTime	BitonicSort.hpp	/^    cl_double    totalProgramTime;    \/**< Time for program execution *\/$/;"	m	class:BitonicSort	access:private
+verificationInput	BitonicSort.hpp	/^    cl_uint    *verificationInput;    \/**< Input array for reference implementation *\/$/;"	m	class:BitonicSort	access:private
+verifyResults	BitonicSort.cpp	/^int BitonicSort::verifyResults()$/;"	f	class:BitonicSort	signature:()
+verifyResults	BitonicSort.hpp	/^    int verifyResults();$/;"	p	class:BitonicSort	access:public	signature:()
